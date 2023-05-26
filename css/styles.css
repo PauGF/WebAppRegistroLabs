@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+#main-header {
+	background: #029a4d;
+	color: #fefefe;
+	height: 90px;
+	padding: 15px 0 0 20px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	text-align: center;
+}	
+
+#logo-ipn {
+	float: left;
+	width: 59px; 
+	height: 90px;
+	padding-left:3%;
+}
+
+#logo-esime {
+	float: right;
+	width: 110px; 
+	height: 90px;
+	padding-right: 5%;
+}
+#main-content {
+	background: white;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	padding:40px;
+}
+
+	#main-content header{
+	text-align: center;
+	}
+	#main-content .content {
+	text-align: justify;
+	}
+
+#information{
+	height: 90%;
+	width: 70%;
+	padding-top: 100px;
+}
+
+#statistics {
+	border: 1px solid #949494; 
+	padding: 10px; 
+	background-color: #949494; 
+	color: #000000; 
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-family: 'Helvetica', sans-serif; 
+	border-radius: 50px; 
+	margin: 20px auto;
+	width: 100%;
+}
+
+#suggestions{
+	border: 1px solid #949494; 
+	padding: 10px; 
+	background-color: #949494; 
+	color: #000000; 
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-family: 'Helvetica', sans-serif; 
+	border-radius: 50px; 
+	margin: 20px auto;
+	width: 100%;
+}
+#login{
+	border: 1px solid #949494; 
+	padding: 10px; 
+	background-color: #949494; 
+	color: #000000; 
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-family: 'Helvetica', sans-serif; 
+	border-radius: 50px; 
+	margin: 20px auto;
+	width: 100%;
+}
+
+#contadores{
+	height: 90%;
+	width: 40%;
+	padding-top: 100px;
+
+
+}
+#contenedor{
+	display: flex;
+}
+
+
+output{
+	border: 1px solid #949494;
+	border-radius: 20px;
+	font-family: 'Helvetica', sans-serif; 
+	margin: 20px auto;
+	font-size: 140px;
+	text-align: center;
+	margin-left:29%;
+}
+h3{
+	font-family: 'Helvetica', sans-serif; 
+	text-align: center;
+
+}
