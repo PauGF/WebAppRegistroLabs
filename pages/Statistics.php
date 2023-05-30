@@ -46,6 +46,26 @@
 </form>
 </div>   
 <div id="contenedor-grafica">
+<div>
+<table>
+<tr>
+<th>Alumnos</th>
+<td><output name="alumnos" >0</output><br></td>
+</tr>
+<tr>
+<th>Docentes</th>
+<td><output name="docentes" >0</output><br></td>
+</tr>
+<tr>
+<th>PAAE</th>
+<td><output name="paae" >0</output><br></td>
+</tr>
+<tr>
+<th>Egresados</th>
+<td><output name="egresados" >0</output><br></td>
+</tr>
+</table>
+</div>
 <!--Grafica de estrella-->
 <canvas id="chart1" ></canvas>
     <script src="../scripts/graph.js"></script>
