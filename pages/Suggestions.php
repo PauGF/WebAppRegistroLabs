@@ -42,18 +42,14 @@
 <table id="tablacontador">
 <tr>
 <th>Alumnos</th>
-<td><output name="alumnos" >0</output><br></td>
-</tr>
-<tr>
 <th>Docentes</th>
-<td><output name="docentes" >0</output><br></td>
-</tr>
-<tr>
 <th>PAAE</th>
-<td><output name="paae" >0</output><br></td>
+<th>Egresados</th>
 </tr>
 <tr>
-<th>Egresados</th>
+<td><output name="alumnos" >0</output><br></td>
+<td><output name="docentes" >0</output><br></td>
+<td><output name="paae" >0</output><br></td>
 <td><output name="egresados" >0</output><br></td>
 </tr>
 </table>
