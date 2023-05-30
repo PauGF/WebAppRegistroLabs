@@ -30,8 +30,8 @@ td{
 }
 
 #ok{
-	margin-right:auto;
-	margin-left:auto;
+	margin-right:20%;
+	margin-left:35%;
 	width:30%;
 	font-family: 'Helvetica', sans-serif; 
 	text-align:center;
@@ -60,7 +60,7 @@ h3{
 #contenedor-form{
 	width: 30%;
 	background: #029a4d;	
-	height: 100% ;
+	
 }
  
 
@@ -84,4 +84,13 @@ th{
 border-collapse: collapse;
 	border: 1px solid #000;
 	background: #949494;
+}
+
+#tablacontador{
+       border: 1px solid #000;
+	width: 50%;
+	text-align: center;
+	vertical-align: center;
+	border-collapse: collapse;
+	margin-top: 3%;
 }
