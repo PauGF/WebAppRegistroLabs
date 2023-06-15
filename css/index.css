@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+.div-nav{
+	height: 110px;
+	width: 100%;
+}
+
+.nav-class{
+	height: auto;
+}
+
+.title-nav-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.title-nav-content span{
+	text-align: center;
+	/*height: 30%;
+	line-height: 1;*/
+	width: 90%;
+}
+
+.title-IPN{
+	font-size: 2em;
+	height: 32px;
+}
+
+.title-ESIME{
+	font-size: 1.5em;
+	height: 24px;
+}
+
+.title-UDI{
+	font-size: 1em;
+	height: 16px;
+}
+
+.logo{
+	width: auto; 
+	height: 106px;
+	margin: 2px;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+}
+
+.counters{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 30%;
+	height: auto;
+}
+
+.counters output{
+	border: 1px solid #949494;
+	border-radius: 20px;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 140px;
+	margin-top: 32px;
+	text-align: center;
+}
+
+.counters span{
+	margin-top: 32px;
+	font-size: 2em;
+	font-family: 'Helvetica', sans-serif; 
+	text-align: center;
+	line-height: 1;
+}
+
+.information{
+	width: 70%;
+}
+
+#main-content {
+	background: white;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	padding:40px;
+}
+
+#main-content header{
+	text-align: center;
+}
+
+#main-content .text-p {
+	text-align: justify;
+}
+
+.button-class {
+	border: 1px solid #949494; 
+	padding: 10px; 
+	background-color: #949494; 
+	color: #000000; 
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-family: 'Helvetica', sans-serif; 
+	border-radius: 50px; 
+	margin: 20px auto;
+	width: 100%;
+}
+
+#suggestions{
+	border: 1px solid #949494; 
+	padding: 10px; 
+	background-color: #949494; 
+	color: #000000; 
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-family: 'Helvetica', sans-serif; 
+	border-radius: 50px; 
+	margin: 20px auto;
+	width: 100%;
+}
+
+#login{
+	border: 1px solid #949494; 
+	padding: 10px; 
+	background-color: #949494; 
+	color: #000000; 
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-family: 'Helvetica', sans-serif; 
+	border-radius: 50px; 
+	margin: 20px auto;
+	width: 100%;
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {
+
+}*/
+
+/* Large devices (laptops/desktops, 1200px and down) 
+@media only screen and (max-width: 1199px) {
+
+Ordenar de mayor a menor para el caso de max-width y de menor a mayor para min-width
+
+}*/
+
+/* Desaparece ESIMEZ */
+@media only screen and (max-width: 832px ) {
+	.title-IPN{
+		height: 44px;
+	}
+
+	.title-ESIME{
+		display: none;
+	}
+
+	.title-UDI{
+		font-size: 1.5em;
+		height: 28px;
+	}
+
+	.counters output{
+		font-size: 100px;
+	}
+}
+
+/* Salto de línea de IPN */
+@media only screen and (max-width: 598px){
+	.title-nav-content span{
+		line-height: 1;
+		margin-top: 10px;
+		text-align: center;
+		height: auto;
+		width: 90%;
+	}
+
+	.counters output{
+		font-size: 80px;
+	}
+
+	/*.title-IPN{ Se conserva
+		height: 44px;
+	}*/
+
+	/*.title-ESIME{
+		display: none;
+	}*/
+
+	/*.title-UDI{
+		font-size: 1.5em;
+		height: 28px;
+	}*/
+}
+
+/* Desaparecen los escudos*/
+@media only screen and (max-width: 480px){
+	.div-nav{
+		height: 74px;
+		width: 100%;
+	}
+
+	/*.title-nav-content span{ Se conserva
+		text-align: center;
+		line-height: 1;
+		height: auto;
+		width: 90%;
+	}
+
+	.title-IPN{ 
+		height: 44px;
+	}
+
+	.title-ESIME{
+		display: none;
+	}*/
+
+	.title-UDI{
+		/*font-size: 1.5em; Se conserva
+		height: 28px;*/
+		margin-bottom: 5px;
+	}
+
+	.logo{
+		display: none;
+	}
+
+	.content{
+		flex-direction: column;
+	}
+
+	.counters{
+		width: 100%;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+
+	.counters span{
+		margin-top: 10px;
+		width: 100%;
+		font-size: 1.5em;
+	}
+
+	.counters output{
+		margin-top: 10px;
+		font-size: 60px;
+	}
+
+	.information{
+		width: 100%;
+	}
+}
+
+/*Salto de línea de IPN sin escudos*/
+@media only screen and (max-width: 398px){
+	.div-nav{
+		height: 102px !important;
+	}
+
+	.counters span{
+		font-size: 1em !important;
+	}
+}
