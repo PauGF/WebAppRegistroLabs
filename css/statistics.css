@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+.content{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.content-form{
+	width: 30%;
+	height: auto;
+}
+
+.content-form span{
+	font-size: 1.5em;
+}
+
+.questions-class{
+	margin-top: 10px;
+	text-align: justify;
+}
+
+.select-class{
+	margin-top: 50px;
+}
+
+.select-class div{
+	margin-top: 40px;
+}
+
+.select-class label{
+	color: white;
+	font-size: 1em;
+}
+ 
+.content-graph{
+	width: 70%;
+	height: auto;
+
+}
+
+canvas {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+}
+
+.button-class{
+	width:100%;
+	margin-bottom: 10px;
+	background-color: #949494;
+}
+
+table, td, th,tr{
+    border: 1px solid #000;
+	width: auto;
+	text-align: center;
+	vertical-align: center;
+	border-collapse: collapse;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Desaparece ESIMEZ */
+@media only screen and (max-width: 832px ) {
+}
+
+/* Salto de línea de IPN */
+@media only screen and (max-width: 598px){
+	.content{
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.content-form{
+		width: 100%;
+	}
+
+	.content-graph{
+		width: 100%;
+	}
+}
+
+/* Desaparecen los escudos*/
+@media only screen and (max-width: 480px){
+	
+}
+
+/*Salto de línea de IPN sin escudos*/
+@media only screen and (max-width: 398px){
+}

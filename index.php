@@ -7,6 +7,7 @@
 		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 		<!--CSS Paulina-->
 		<link href="css/index.css" rel="stylesheet">
+		<link href="css/nav.css" rel="stylesheet">
 		<!--Let browser know website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -58,9 +59,9 @@
 					<div class="text-p">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
-					<button onclick="location.href = 'pages/Statistics.php';" class="button-class" name="statistics" >Estadísticas</button>
-					<button onclick="location.href = 'pages/Suggestions.php';" class="button-class" name="suggestions">Sugerencias / Programas</button>
-					<button onclick="location.href = 'pages/Login.php'" class="button-class" name="login">Bitacora de Ingreso </button>
+					<button onclick="location.href = 'pages/statistics.php';" class="button-class" name="statistics" >Estadísticas</button>
+					<button onclick="location.href = 'pages/suggestions.php';" class="button-class" name="suggestions">Sugerencias / Programas</button>
+					<button onclick="location.href = 'pages/login.php'" class="button-class" name="login">Bitacora de Ingreso </button>
 				</section>
 			</div>
 		</div>
