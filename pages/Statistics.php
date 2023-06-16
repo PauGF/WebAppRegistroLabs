@@ -9,12 +9,12 @@
         <!--CSS Paulina-->
         <link href="../css/statistics.css" rel="stylesheet">
         <link href="../css/nav.css" rel="stylesheet">
+        <link href="../css/commonReport.css" rel="stylesheet">
         <!--Script graphs-->
         <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        
         <title>Estadísticas</title>
     </head>
     <body>
@@ -33,7 +33,7 @@
             </nav>
         </div>
         <div class="content">
-            <div class="content-form green lighten-1">
+            <div class="content-left green lighten-1">
                 <div class="container">
                     <div class="select-class">
                         <div class="input-field col s12">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>   
-            <div class="content-graph">
+            <div class="content-right">
                 <div class="container">
                     <table>
                         <thead>
