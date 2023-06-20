@@ -105,7 +105,7 @@ Ordenar de mayor a menor para el caso de max-width y de menor a mayor para min-w
 }*/
 
 /* Desaparece ESIMEZ */
-@media only screen and (max-width: 832px ) {
+@media only screen and (max-width: 850px ) {
 
 	.counters output{
 		font-size: 100px;

@@ -21,118 +21,178 @@
 	</head>
 
 	<body>
-		<div class="navbar-fixed div-nav">
-            <nav class="green darken-1 nav-class">
-                <img class="logo left" src="../images/ipn.png" alt="IPN" title="LOGO IPN">
-                <img class="logo right" src="../images/esime.png" alt="ESIME" title="LOGO ESIME">
-                <div class="nav-wrapper">
-                    <div class="title-nav-content">
-                        <span class="title-IPN">Instituto Politécnico Nacional</span>
-                        <span class="title-ESIME">Escuela Superior de Ingeniería Mecánica y Eléctrica Zacatenco</span>
-                        <span class="title-UDI">Unidad de Informática</span>
-                    </div>
-                </div>
+		<header>
+			<div class="navbar-fixed div-nav">
+	            <nav class="green darken-1 nav-class">
+	                <img class="logo left" src="../images/ipn.png" alt="IPN" title="LOGO IPN">
+	                <img class="logo right" src="../images/esime.png" alt="ESIME" title="LOGO ESIME">
+	                <div class="nav-wrapper">
+	                    <div class="title-nav-content">
+	                        <span class="title-IPN">Instituto Politécnico Nacional</span>
+	                        <span class="title-ESIME">Escuela Superior de Ingeniería Mecánica y Eléctrica Zacatenco</span>
+	                        <span class="title-UDI">Unidad de Informática</span>
+	                    </div>
+	                </div>
 
-            </nav>
-        </div>
-		<div class="content">
-			<div class="content-left green lighten-1"> 
-				<div class="container">
-					<div class="select-class">
-						<form >
-							<div class="input-field col s12">
-		                        <select id="selectLabs" name="selectLabs">
-		                            <option value="" disabled selected>Seleccione el laboratorio a visualizar</option>
-		                            <option selected="selected">Laboratorio de Diseño</option>
-		                            <option>Laboratorio de Pabellon</option>
-		                        </select>
-		                        <label for="selectLabs">Laboratorio</label>
-		                    </div>
-							<label for="date">Seleccione la fecha</span>
-							<input type="date" id="date" name="date">
-							<button class="btn waves-effect waves-light" type="submit" name="action">Ver Bitácora
-                            <i class="material-icons right">send</i>
-                            </button>
-						</form>
+	            </nav>
+	        </div>
+	    </header>
+	    <main>
+			<div class="content">
+				<div class="content-left green lighten-1"> 
+					<div class="container">
+						<div class="select-class">
+							<form >
+								<div class="input-field col s12">
+			                        <select id="selectLabs" name="selectLabs">
+			                            <option value="" disabled selected>Seleccione el laboratorio a visualizar</option>
+			                            <option selected="selected">Laboratorio de Diseño</option>
+			                            <option>Laboratorio de Pabellon</option>
+			                        </select>
+			                        <label for="selectLabs">Laboratorio</label>
+			                    </div>
+								<label for="date">Seleccione la fecha</label>
+								<input type="date" id="date" name="date">
+								<button class="btn waves-effect waves-light" type="submit" name="action">Ver Bitácora
+	                            <i class="material-icons right">send</i>
+	                            </button>
+							</form>
+						</div>
+						<a href="../index.php" class="waves-effect waves-light btn button-class">Inicio</a>
 					</div>
-					<a href="../index.php" class="waves-effect waves-light btn button-class">Inicio</a>
-				</div>
-			</div>   
-			<div class="content-right">
-				<div class="container">
-					<table>
-						<thead>
-							<tr>
-								<th>Hora de Entrada</th>
-								<th>Hora de salida</th>
-								<th>Nombre</th>
-								<th>Boleta</th>
-								<th>Tipo</th>
-								<th>Carrera/Departamento</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div> 
-		</div>
+				</div>   
+				<div class="content-right">
+					<div class="div-table-login">
+						<table>
+							<thead>
+								<tr>
+									<th>Hora de Entrada</th>
+									<th>Hora de salida</th>
+									<th class="td-hidden">Nombre</th>
+									<th>Boleta/No. de Empleado</th>
+									<th>Tipo</th>
+									<th class="td-hidden">Carrera/Departamento</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>15:00:00</td>
+									<td>15:00:00</td>
+									<td class="td-hidden">Sergio Alejandro Cañas Serrano</td>
+									<td>2019630243</td>
+									<td>Alumno</td>
+									<td class="td-hidden">Ingeniería en Sistemas Computacionales</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td class="td-hidden"></td>
+									<td></td>
+									<td></td>
+									<td class="td-hidden"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td class="td-hidden"></td>
+									<td></td>
+									<td></td>
+									<td class="td-hidden"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div> 
+			</div>
+		</main>
 		<!--<JavaScript at end of body for optimized loading-->
         <script type="text/javascript" src="../js/materialize.min.js"></script>
 	</body>
